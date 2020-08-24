@@ -1,0 +1,18 @@
+svg {
+  width: 30px;
+  height: 30px;
+}
+
+.icon.hover {
+  fill: grey;
+  transition: all 0.2s ease-in;
+}
+
+.icon {
+  fill: white;
+  transition: all 0.1s ease-out;
+}
+
+.icon.active {
+  fill: black;
+}
