@@ -1,23 +1,5 @@
 class regex_matcher:
     def match_string(self, input_string, next_match_index, pattern, pattern_index):
-        """ Matches the string provided in the input string with the pattern
-
-        Parameters
-        ----------
-        input_string : str
-                        input string to be matched
-        next_match_index : integer
-                            the next index to be checked in the input string
-        pattern : str
-                    pattern to be checked against the input
-        pattern_index : integer
-                        the next pattern index to be checked against the input string
-
-        Returns
-        -------
-        boolean : the result whether the input string is matched by the pattern
-
-        """
         str_len = len(input_string)
         pattern_len = len(pattern)
         pattern_iter = pattern_index

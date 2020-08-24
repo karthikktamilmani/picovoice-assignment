@@ -25,6 +25,13 @@ You are tasked to implement a real-time audio processing modulewithin a web brow
 * For fetching the volume from the audio stream, getFloatFrequencyData is used.
 * Tested in Firefox, Chrome and Safari.
 
+### References
+
+* [Recording Audio](https://developers.google.com/web/fundamentals/media/recording-audio)
+* [Winap style](https://github.com/mdn/web-dictaphone)
+
+
+
 ## Problem 3
 
 Implement a 5-star widget for an eCommerce site for usersto record a product rating. The widget displays a horizontal row of stars that areeither outlined or black, according to the product rating, from left to right. E.g.★★★☆☆ = rating of 3.

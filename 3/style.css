@@ -16,3 +16,11 @@ svg {
 .icon.active {
   fill: black;
 }
+
+.main {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  height: 90vh;
+  flex-direction: column;
+}
